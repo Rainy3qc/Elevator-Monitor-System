@@ -9,4 +9,17 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <!-- servlet用于注册servlet，mapping用于建立映射 -->
+  <servlet>  
+     <!-- Servlet的名称 -->  
+    <servlet-name>HelloServlet</servlet-name>  
+    <!-- servlet的类名 -->  
+    <servlet-class>com.EMS.servlet.HelloServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>HelloServlet</servlet-name>  
+    <!-- 访问的网址 -->  
+    <url-pattern>/Elevator-Monitor-System/HelloServlet</url-pattern>  
+    </servlet-mapping>  
+ 
 </web-app>
